@@ -8,7 +8,7 @@ import zipfile
 from datetime import datetime
 import qrcode.image.svg
 
-# ----------------- Page Config -----------------
+
 st.set_page_config(
     page_title="NOFA QR Code Generator",
     layout="wide"
@@ -19,7 +19,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ----------------- Session State -----------------
+
 if "qr_images" not in st.session_state:
     st.session_state.qr_images = []
 
@@ -100,7 +100,7 @@ END:VCARD"""
     generate = st.button("Generate QR")
     reset = st.button("Reset")
 
-# ----------------- Logic -----------------
+
 if generate:
     st.session_state.qr_images = []
     st.session_state.qr_data_list = []
@@ -125,7 +125,7 @@ if reset:
     st.session_state.qr_images = []
     st.session_state.qr_data_list = []
 
-# ----------------- Preview -----------------
+
 if st.session_state.qr_images:
     st.markdown("## Generated QR Codes")
 
@@ -167,7 +167,7 @@ if st.session_state.qr_images:
                 mime_type
             )
 
-    # -------- ZIP Download (PNG only – standard) --------
+    # -------- ZIP Download (PNG) --------
     if len(st.session_state.qr_images) > 1:
         zip_buf = io.BytesIO()
         with zipfile.ZipFile(zip_buf, "w") as zf:
