@@ -167,7 +167,7 @@ if st.session_state.qr_images:
                 mime_type
             )
 
-    # -------- ZIP Download (PNG only – Professional standard) --------
+    # -------- ZIP Download (PNG only – standard) --------
     if len(st.session_state.qr_images) > 1:
         zip_buf = io.BytesIO()
         with zipfile.ZipFile(zip_buf, "w") as zf:
