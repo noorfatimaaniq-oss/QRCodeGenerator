@@ -5,7 +5,7 @@ Live Demo: https://qrcodegenerator-5xbt7jfaqvt4nskkexythd.streamlit.app/
 Overview
 
 A professional QR Code Generator web application built with Python and Streamlit.
-Generates customizable QR codes with multiple types, logo embedding, batch generation, and download options in PNG and SVG formats.
+Generates customizable QR codes with multiple types, logo embedding, batch generation and download options in PNG and SVG formats.
 
 
 Key Features
@@ -21,8 +21,8 @@ Usage
 
 Open the Live Demo
 1. in your browser
-2. Select the QR code type: Text/URL, Wi-Fi, VCard, or Batch
-3. Customize QR color, background color, and optionally add a logo
+2. Select the QR code type: Text/URL, Wi-Fi, VCard or Batch
+3. Customize QR color, background color and optionally add a logo
 4. Upload TXT/CSV file if generating batch QR codes
 5. Click Generate QR to preview codes
 6 Download QR codes in PNG or SVG format or ZIP for multiple QR codes
@@ -33,4 +33,6 @@ Technologies
 * Streamlit – Web interface
 * QRCode Library – QR code generation
 * Pillow (PIL) – Image processing
+  
+    Note: No installation is required. The project is live and ready to use via the demo link.
 
