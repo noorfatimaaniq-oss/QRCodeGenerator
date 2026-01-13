@@ -20,12 +20,12 @@ Key Features
 Usage
 
 Open the Live Demo
-* in your browser
-* Select the QR code type: Text/URL, Wi-Fi, VCard, or Batch
-* Customize QR color, background color, and optionally add a logo
-* Upload TXT/CSV file if generating batch QR codes
-* Click Generate QR to preview codes
-* Download QR codes in PNG or SVG format or ZIP for multiple QR codes
+1. in your browser
+2. Select the QR code type: Text/URL, Wi-Fi, VCard, or Batch
+3. Customize QR color, background color, and optionally add a logo
+4. Upload TXT/CSV file if generating batch QR codes
+5. Click Generate QR to preview codes
+6 Download QR codes in PNG or SVG format or ZIP for multiple QR codes
 
 Technologies
 
